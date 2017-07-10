@@ -1,28 +1,29 @@
 body {
-    background-image: url(http://www.leemunroe.com/wp-content/uploads/radial.jpg);
+    background-image: url(5.png);
     background-size: cover;
-
+    font-family: Lato;
 }
 
 .text {
     text-align: center;
-    font-family: Lato;
     padding-top: 20%;
 }
 
-h1, h4 {
+h1.head1 {
   color: white;
   font-weight: 700;
   font-size: 50px;
 }
 
-h4 {
+h4.head2 {
     font-size: 35px !important;
+    color: white;
+    font-weight: 700;
 }
 
 .navbar-default {
-  background-color: #9b59b6;
-  border-color: #8e44ad;
+  background-color: #7c58ae;
+  border-color: #7c58ae;
 }
 .navbar-default .navbar-brand {
   color: #ecf0f1;
@@ -45,20 +46,20 @@ h4 {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ecdbff;
-  background-color: #8e44ad;
+  background-color: #7c58ae;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #ecdbff;
-  background-color: #8e44ad;
+  background-color: #7c58ae;
 }
 .navbar-default .navbar-toggle {
-  border-color: #8e44ad;
+  border-color: #7c58ae;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #8e44ad;
+  background-color: #7c58ae;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ecf0f1;
@@ -72,4 +73,39 @@ h4 {
 }
 .navbar-default .navbar-link:hover {
   color: #ecdbff;
+}
+
+p.ppp {
+    text-align: center;    
+}
+
+h1.nice {
+    text-align: center;
+}
+
+.team-header {
+    text-align: center;
+    color: white;
+}
+
+.text-team-header {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.text-small-team-header {
+    font-size: 30px;
+}
+
+.owner-text {
+    text-align: center;
+    color: red;
+}
+
+h1.boldinit {
+    font-weight: 700;
+}
+
+.thumbnail {
+    padding: 0px;
 }
